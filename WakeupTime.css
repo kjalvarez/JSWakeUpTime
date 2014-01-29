@@ -1,5 +1,4 @@
-.innerShellstyle {
-	color: #767676;  
+.innerShellstyle {  
 	border: solid; 
 	border-radius: 5px 5px 70px 70px;
 	height: 200px;
@@ -18,11 +17,13 @@
 	width: 70%;
 	text-align: left;
 	background-color: #767676; 
+	color: #767676;
 }
 
 .labelStyle {
 	color: white;
 	margin-right: 85%;
+
 }
 
 .labelStyleAuto {
@@ -35,16 +36,41 @@
 .labelStyleScreen {
 	color: #FF3333;
 	font-size: 72px;
-	margin-bottom: 50px;
+	margin-bottom: 10%;
+	background-color: #AF4035;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+	text-align: center;
 }
 
 .dotStyle {
 	background-color: #FF3333;
 	border-radius: 50%;
 	width: 20px;
-	height: 20px; 
-	margin-left: 12%;
-	margin-top: -3%;
+	height: 20px;
+	margin-left: 25px;
+	float: left;
+}
 
+.amfm1 {
+	color: white;
+	margin-right: 85%;
+	margin-left: 20%;
+
+}
+
+.amfm2 {
+	color: white;
+	margin-right: 85%;
+	margin-left: 20%;
+	margin-top: -5%;
+}
+
+
+.amfmNum {
+	color: white;
+	display: block;
 
 }
