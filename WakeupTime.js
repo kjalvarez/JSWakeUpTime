@@ -4,7 +4,7 @@ $(document).on('ready', function() {
 	var pmLabel = $('<div class= "labelStyle">PM</div>');
 	var autoLabel = $('<div class= "labelStyleAuto">AUTO</div>');
 	var clockScreen = $('<div class= "labelStyleScreen">12:00</div>');
-	var amPMlabel = $('<div class="dotStyle">DOT</div>');
+	var amPMlabel = $('<div class="dotStyle"></div>');
 
 		$('.container').append(innerShell);
 		$(innerShell).addClass("innerShellstyle");
@@ -15,7 +15,7 @@ $(document).on('ready', function() {
 		$(innerShell).append(pmLabel);
 		$(innerShell).append(autoLabel);
 		$(pmLabel).after(clockScreen);
-		$(autoLabel).after(amPMlabel);
+		$(pmLabel).after(amPMlabel);
 
 
 		
