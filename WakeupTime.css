@@ -8,13 +8,37 @@
 	float: left;
 	margin-left: 15%;
 	margin-top: 3%;
+	background-color: black;
 }
 
-.outerShellstyle {
-	color: #767676;  
+.outerShellstyle {  
 	border: solid; 
 	border-radius: 90px 90px 5px 5px;
 	height: 300px;
 	width: 70%;
 	text-align: left;
+	background-color: #767676; 
+}
+
+.labelStyle {
+	color: white;
+	margin-right: 85%;
+}
+
+.labelStyleAuto {
+	color: white;
+	margin-right: 85%;
+	margin-top: -10%;
+	
+}
+
+.labelStyleScreen {
+	color: #FF3333;
+	font-size: 72px;
+	margin-bottom: 50px;
+}
+
+.dotStyle {
+	color: #FF3333;
+
 }
